@@ -1,0 +1,111 @@
+body {
+  background-color: whitesmoke;
+  color: black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav {
+  background-color:black;
+  color: white;
+}
+
+.nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-size: 0px;
+}
+
+.nav ul li {
+  padding: 16px;
+  text-align: center;
+  font-size: 1.2rem;
+  border-bottom: 1px solid white;
+  transition: background-color 0.2s;
+}
+
+.nav ul li:hover {
+  background-color:rgba(255, 255, 255, 0.459);
+}
+
+.image-area {
+  background-image:url('images/cover.jpg');
+  background-color:black;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+.centered-container {
+max-width: 800px;
+padding: 0px 16px;
+margin: 0px auto;
+
+}
+
+.image-text {
+  text-align: center;
+  background-color: rgba(175, 17, 5, 0.747);
+  border-radius: 1.3rem;
+  color: white;
+  font-size: 2.5rem;
+  
+}
+
+.intro-text {
+  color: rgb(87, 85, 85);
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+.single-service {
+  text-align: center;
+  background-size: 50%;
+  margin-bottom: 5px;
+  width: 10px;
+  height: 10px;
+  padding-top: 0px;
+  padding-bottom: 400px;
+
+}
+
+.single-service p {
+  padding: 0px 16px;
+  
+}
+
+@media screen and (min-width: 700px) {
+  .nav ul {
+    text-align: right;
+  }
+
+  .nav ul li {
+    display: inline-block;
+    border-bottom: 0px;
+    font-size: small;
+    text-align: left;
+  }
+
+  .single-service {
+    float: right;
+    width: 50%;
+  
+  
+  }
+
+  .heading-2 {
+    color: rgb(194, 10, 10);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+}
